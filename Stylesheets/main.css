@@ -1,9 +1,35 @@
-body {
-  background-color: powderblue;
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body 
+{
+  font-family: "Inter";
+  background-color: indianred;
 }
-h1 {
-  color: blue;
+
+h1 
+{
+  color: whitesmoke;
 }
-p {
-  color: red;
+
+p 
+{
+  color: whitesmoke;
+}
+
+a
+{
+  background-color: #DBDB00;
+  padding: 10px;
+  padding-left:30px;
+  padding-right:30px;
+  border-radius: 25px;
+}
+
+div.main
+{
+  text-align: center;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.3);
 }
