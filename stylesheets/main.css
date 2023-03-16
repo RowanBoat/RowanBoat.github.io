@@ -18,7 +18,9 @@ p
 
 a
 {
-  background-color: #DBDB00;
+  text-decoration: none;
+  color: black;
+  background-color: hotpink;
   padding: 10px;
   padding-left:30px;
   padding-right:30px;
