@@ -77,9 +77,9 @@ a.button
 
 .bio{
   display: inline-flex;
-  margin-bottom: 50px;
 }
 
-h1{
+hr{
+  border:2px solid #cd4c5c;
   margin: 50px;
 }
