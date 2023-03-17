@@ -75,6 +75,13 @@ a.button
   width: 30%;
 }
 
+.card:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.6);
+  width: 32%;
+  margin:auto +33px;
+}
+
 .bio{
   display: inline-flex;
 }
