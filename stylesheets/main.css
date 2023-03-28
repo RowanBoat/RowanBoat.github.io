@@ -37,6 +37,13 @@ hr
   text-align: left;
 }
 
+.description > ul
+{
+  font-size: 130%; 
+  margin: 0 200px 0 200px;
+  text-align: left;
+}
+
 .bio
 {
   display: grid;
