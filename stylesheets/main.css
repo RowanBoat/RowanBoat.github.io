@@ -30,6 +30,13 @@ hr
   margin: 50px;
 }
 
+.description
+{
+  font-size: 130%; 
+  margin: 0 200px 0 200px;
+  text-align: left;
+}
+
 .bio
 {
   display: grid;
@@ -89,13 +96,14 @@ div.button
   right: 25px;
 }
 
-a
+a.image
 {
   text-decoration: none;
 }
 
 a.button
 {
+  text-decoration: none;
   color: black;
   background-color: hotpink;
   padding: 10px;
