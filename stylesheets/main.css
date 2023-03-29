@@ -243,8 +243,7 @@ and (max-width: 1000px)
 
   .bio
   {
-    display: block;
-    margin: auto;
+    grid-template-columns: 1fr;
   }
 
   .biotext
@@ -252,12 +251,8 @@ and (max-width: 1000px)
     width: 100%;
   }
 
-  .card
+  .gallery
   {
-    display: grid;
-    margin-bottom: 50px;
-    width: 90%;
-    left: 50%;
-    height: 200px;
+    grid-template-columns: 1fr;
   }
 }
