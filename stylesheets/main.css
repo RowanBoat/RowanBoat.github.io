@@ -44,6 +44,11 @@ hr
   margin: auto;
 }
 
+.profile
+{
+  width: 400px;
+}
+
 .biotext
 {
   width: 60%;
@@ -274,5 +279,10 @@ and (max-width: 1000px)
   hr
   {
     margin: 30px;
+  }
+
+  .profile
+  {
+    width: 200px;
   }
 }
