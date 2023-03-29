@@ -116,10 +116,8 @@ a.button
   text-decoration: none;
   color: black;
   background-color: hotpink;
-  padding: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  border-radius: 25px 0px 25px 0px;
+  padding: 10px 30px;
+  border-radius: 25px 0px;
   transition: 0.3s;
 }
 
@@ -294,7 +292,7 @@ and (max-width: 1000px)
 
   ul
   {
-    margin: 0 10px 0 10px;
+    margin: 0 10px;
   }
 
   .container 
@@ -302,5 +300,90 @@ and (max-width: 1000px)
     width: 80%;
     margin-top: 0;
     padding: 20px;
+  }
+
+  a.button
+  {
+    padding: 8px 20px;
+    border-radius: 20px 0;
+  }
+}
+
+@media only screen 
+and (max-width: 400px)
+{
+  #title
+  {
+    font-size: 120%;
+  }
+
+  .main
+  {
+    margin: 10px;
+    padding: 5px;
+  }
+
+  .bio
+  {
+    margin: auto;
+    grid-template-columns: 1fr;
+    font-size: 65%;
+  }
+
+  .biotext
+  {
+    width: 100%;
+  }
+
+  .gallery
+  {
+    grid-template-columns: 1fr;
+    margin: 0;
+    font-size: 65%;
+  }
+
+  h1
+  {
+    font-size: 100%;
+  }
+
+  div.button
+  {
+    bottom: 5px;
+    right: 20px;
+  }
+
+  hr
+  {
+    margin: 30px;
+  }
+
+  .profile
+  {
+    width: 200px;
+  }
+
+  .description
+  {
+    font-size: 75%;
+    margin: 10px;
+  }
+
+  ul
+  {
+    margin: 0 10px;
+  }
+
+  .container 
+  {
+    width: 80%;
+    margin-top: 0;
+    padding: 20px;
+  }
+
+  a.button
+  {
+    padding: 5px 15px;
+    border-radius: 15px 0;
   }
 }
