@@ -290,11 +290,6 @@ and (max-width: 1000px)
     margin: 10px;
   }
 
-  ul
-  {
-    margin: 0 10px;
-  }
-
   .container 
   {
     width: 80%;
@@ -317,16 +312,8 @@ and (max-width: 400px)
     font-size: 120%;
   }
 
-  .main
-  {
-    margin: 10px;
-    padding: 5px;
-  }
-
   .bio
   {
-    margin: auto;
-    grid-template-columns: 1fr;
     font-size: 65%;
   }
 
@@ -337,48 +324,12 @@ and (max-width: 400px)
 
   .gallery
   {
-    grid-template-columns: 1fr;
-    margin: 0;
     font-size: 65%;
   }
 
   h1
   {
     font-size: 100%;
-  }
-
-  div.button
-  {
-    bottom: 5px;
-    right: 20px;
-  }
-
-  hr
-  {
-    margin: 30px;
-  }
-
-  .profile
-  {
-    width: 200px;
-  }
-
-  .description
-  {
-    font-size: 75%;
-    margin: 10px;
-  }
-
-  ul
-  {
-    margin: 0 10px;
-  }
-
-  .container 
-  {
-    width: 80%;
-    margin-top: 0;
-    padding: 20px;
   }
 
   a.button
