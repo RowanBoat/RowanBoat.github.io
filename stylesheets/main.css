@@ -55,6 +55,7 @@ hr
 .biotext
 {
   width: 60%;
+  text-align: left;
 }
 
 .gallery
@@ -231,6 +232,55 @@ img.link
 .active,
 .demo:hover {
   opacity: 1;
+}
+
+@media only screen 
+and (max-width: 1400px)
+{
+  #title
+  {
+    font-size: 250%;
+  }
+
+  .main
+  {
+    margin: 30px;
+    padding: 25px;
+  }
+
+  .bio
+  {
+    margin: auto;
+    font-size: 100%;
+  }
+
+  .biotext
+  {
+    width: 100%;
+  }
+  
+  div.button
+  {
+    bottom: 0;
+    right: 25px;
+  }
+
+  .profile
+  {
+    width: 80%;
+  }
+
+  .description
+  {
+    font-size: 100%;
+    margin: 0 250px 0 250px;
+  }
+
+  a.button
+  {
+    padding: 8px 20px;
+    border-radius: 20px 0;
+  }
 }
 
 @media only screen 
