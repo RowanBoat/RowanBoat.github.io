@@ -150,6 +150,15 @@ img.link
   margin-right: 20px;
 }
 
+video
+{
+  width: 300px;
+  height: 670px;
+  padding: 20px;
+  background-color: rgba(0.1,0.1,0.1,0.5);
+  border-radius: 50px;
+}
+
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
@@ -411,7 +420,7 @@ and (max-width: 400px)
   {
     width: 90%;
   } 
-  
+
   p.blurb
   {
     margin-right: 20px;
