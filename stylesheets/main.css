@@ -117,12 +117,17 @@ a.image
   text-decoration: none;
 }
 
+p.blurb
+{
+  margin-right: 150px;
+}
+
 a.button
 {
   text-decoration: none;
   color: black;
   background-color: hotpink;
-  padding: 10px 30px;
+  padding: 8px 25px;
   border-radius: 25px 0px;
   transition: 0.3s;
 }
@@ -328,6 +333,11 @@ and (max-width: 1000px)
     font-size: 120%;
   }
 
+  p.blurb
+  {
+    margin-right: 20px;
+  }
+
   div.button
   {
     bottom: 5px;
@@ -356,6 +366,11 @@ and (max-width: 1000px)
     margin-top: 0;
     padding: 20px;
   }
+
+  .card:hover
+  {
+    width: 90%;
+  } 
 
   a.button
   {
@@ -390,6 +405,16 @@ and (max-width: 400px)
   h1
   {
     font-size: 100%;
+  }
+
+  .card:hover
+  {
+    width: 90%;
+  } 
+  
+  p.blurb
+  {
+    margin-right: 20px;
   }
 
   a.button
