@@ -15,6 +15,11 @@
 <body>
 
 	<div class="main">
+
+		<div class="back">
+			<a class="back" href="javascript:window.history.back();"><b>&#8249 Back</b></a>
+		</div>
+
 		<h1 id="title">
 			Puck Launching AR Game
 		</h1>
@@ -25,8 +30,22 @@
 			About This Project
 		</h1>
 
-		<p>
-
+		<p class="description">
+			Developed to be an Android mobile game that requires
+			the user to move around the level displayed through AR
+			to accurately move the puck object to the end marker.
+			<br>
+			<br>
+			This game was developed in Unreal Engine 5.0, using 
+			the engine's built-in AR functionaility. The puck 
+			launch is set up when the player taps and holds the screen
+			and the launch then happens when the finger is released.
+			<br>
+			<br>
+			The force of the launch is determined based on how far the
+			mobile device is moved from the initial tap position, 
+			and the direction of the force is determined by the 
+			orientation of the mobile device on the initial tap.
 		</p>
 
 		<hr>
@@ -35,11 +54,14 @@
 			Video Demo
 		</h1>
 
-		<video controls muted>
-
-			<source src="https://github.com/RowanBoat/RowanBoat.github.io/raw/main/videos/AR.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-
+		<video controls muted 
+		style="width: 300px;
+		height: 670px;
+		padding: 20px;
+		background-color: rgba(0.1,0.1,0.1,0.5);
+		border-radius: 50px;">
+		<source src="https://github.com/RowanBoat/RowanBoat.github.io/raw/main/videos/AR.mp4" type="video/mp4">
+		Your browser does not support the video tag.
 		</video>
 
 		<hr>

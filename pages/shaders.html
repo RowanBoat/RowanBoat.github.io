@@ -15,7 +15,11 @@
 <body>
 
 	<div class="main">
-		
+
+		<div class="back">
+			<a class="back" href="javascript:window.history.back();"><b>&#8249 Back</b></a>
+		</div>
+
 		<h1 id="title">
 			River Graphics Scene
 		</h1>
@@ -28,25 +32,23 @@
 
 		<p class="description">
 
-			This scene was created using a premade DirectX 11 framework
-
+			This scene is a simple simulation of a ravine, built using HLSL shaders in a 
+			pre-made DirectX 11 framework. The flowing water was simulated by applying 
+			gerstner waves to a plane which, while more applicable to an ocean than a river, 
+			provides an illusion of flowing water. The terrain was built by applying a heightmap 
+			to a plane and was textured using a texture map to blend two textures seamlessly.
 			<br><br>
+			The directional light is directed to the terrain from the yellow 
+			sphere that acts as a "sun," the position of which is arced by
+			changing the "Time of Day" slider. The colour of the light also
+			changes from a white to a white-yellow colour when the same slider 
+			is near either end to create a sunrise and sunset effect.
+			<br><br>
+			The scene also contains an edge detection post-processing effect,
+			a depth map to show how the shadows from the directional and spotlights 
+			are calculated, and a drone model that can be fully manipulated to
+			demonstrate the dynamic lighting.
 
-			Creating this scene involved implementing:
-		</p>
-
-		<br>
-
-		<ul class="description">
-			<li></li>
-			<li></li>
-			<li></li>
-		</ul>
-
-		<br>
-
-		<p class="description">
-			If you would like to try this scene, you can find it <a href="https://rowan-your-boat.itch.io/mushroom-run" target="_blank" style="color: lightblue">HERE</a>.
 		</p>
 
 		<hr>
@@ -63,41 +65,41 @@
 				<div class="numbertext">1 / 6</div>
 				<img src="../images/shaders/001.png" style="width:100%">
 			</div>
-	
+
 			<div class="mySlides">
 				<div class="numbertext">2 / 6</div>
 				<img src="../images/shaders/002.png" style="width:100%">
 			</div>
-	
+
 			<div class="mySlides">
 				<div class="numbertext">3 / 6</div>
 				<img src="../images/shaders/003.png" style="width:100%">
 			</div>
-	
+
 			<div class="mySlides">
 				<div class="numbertext">4 / 6</div>
 				<img src="../images/shaders/004.png" style="width:100%">
 			</div>
-	
+
 			<div class="mySlides">
 				<div class="numbertext">5 / 6</div>
 				<img src="../images/shaders/005.png" style="width:100%">
 			</div>
-  
+
 			<div class="mySlides">
 	  			<div class="numbertext">6 / 6</div>
 				<img src="../images/shaders/006.png" style="width:100%">
 			</div>
-  
+
 			<!-- Next and previous buttons -->
 			<a class="prev">&#10094;</a>
 			<a class="next">&#10095;</a>
-  
+
 			<!-- Image text -->
 			<div class="caption-container">
 	  			<p id="caption"></p>
 			</div>
-  
+
 			<!-- Thumbnail images -->
 			<div class="row">
 	  			<div class="column">
@@ -125,6 +127,23 @@
 
 		<hr>
 
+		<h1>
+			Video Demo
+		</h1>
+
+		<video controls muted
+		style="width: 592px;
+		height: 318px;
+		padding: 20px;
+		background-color: rgba(0.1,0.1,0.1,0.5);
+  		border-radius: 50px;">
+		<!-- <source src="../videos/shaders.mkv" type="video/mp4"> -->
+		<source src="https://github.com/RowanBoat/RowanBoat.github.io/raw/main/videos/shaders.mkv" type="video/mp4">
+		Your browser does not support the video tag.
+		</video>
+
+		<hr>
+
 		<div class="socials" style="margin-bottom: 30px;">
 
 			<h2>
@@ -144,7 +163,7 @@
 			</a>
 
 		</div>
-		
+
 	</div>
 
 </body>
