@@ -186,6 +186,10 @@ iframe
   border-radius: 25px;
 }
 
+a
+{
+  color: whitesmoke;
+}
 
 @media only screen 
 and (max-width: 1400px)
